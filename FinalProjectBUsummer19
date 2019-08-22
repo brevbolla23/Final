@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Gems of Oldham County</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Oldham County, Kentucky</h1>
+        <h2>Explore Oldham County and what is has to offer</h2>
+      </a>
+      <nav>
+        <li>
+          <a href="gemhome.html" class="selected">Home</a>
+        </li>
+        <li>
+          <a href="activities.html" class="selected">Activities</a>
+        </li>
+        <a href="restaurants.html" class="selected">Restaurants</a>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <ul id="pictures"
+          <li></li>
+      </section>
+    </div>
+    
+    
+  </body>
+
+  
+  
+  
+    
+  
+  
+  
+</html>
+
+  
+  
+  
