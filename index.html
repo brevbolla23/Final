@@ -4,10 +4,19 @@
   <head>
     <meta charset="utf-8">
     <title>Gems of Oldham County</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
   </head>
   <body>
+    
+    
+<form id="myForm" action="/action_page.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit form">
+</form>
     
     <header>
       <a href="index.html" id="logo">
@@ -15,15 +24,17 @@
         <h2>Explore Oldham County and What It Has To Offer</h2>
       </a>
       <nav>
+        <ul>
         <li>
           <a href="index.html" class="selected">Index</a>
         </li>
         <li>
-          <a href="activities.html" class="selected">Activities</a>
+          <a href="activities.html" >Activities</a>
         </li>
         <li>
-          <a href="restaurants.html" class="selected">Restaurants</a>
+          <a href="restaurants.html" >Restaurants</a>
         </li>
+        </ul>
       </nav>
     </header>
     <div id="wrapper">
@@ -33,15 +44,15 @@
         
         <ul id="gallery">
           <li>
-          <img src="download.jpeg">
+          <img src="./img/download.jpeg">
           <p>Oldham County sits on the banks of the Ohio River.  Enjoy fishing, swimming and cruising in a boat, among many other things to pass the time by the water.</p>
         </li>
        <li>
-          <img src="imagestrain.jpeg">
+          <img src="./img/imagestrain.jpeg">
           <p>Train lovers from all around the country come to see the train tracks run right down Main Street in the middle of La Grange.</p>
         </li>
        <li>
-          <img src="imageshorses.jpeg">
+          <img src="./img/imageshorses.jpeg">
           <p>Kentucky is world known for our Derby's, so come on out for a drive down the "Scenic Route" to admire the beautiful horses. </p>
         </li>
         </ul>
@@ -52,7 +63,7 @@
       <div class = "container">
         <h1>Subscribe for Weekly Updates!</h1>
          <form action = "index.html" method = "post">
-          <input type = "email" placeholder = "Enter Email  "
+          <input type = "email" placeholder = "Enter Email  ">
             <button type = "submit" class = "button_1">Join Us!</button>
        </form>
       </div>
@@ -70,9 +81,23 @@
      <p> 2019 Hannah Head</p>
    
     </footer>
+  
+  
+  <script src = "./js/bootstrap.min.js">
+  </script>
+  
+  
+  
+  <script src = "./js/gem.js">
+  </script>
     
   </body>
   
+  
+    
+    
+  </script>
+   
 </html>
 
   

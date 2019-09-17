@@ -5,11 +5,7 @@ function greeting() {
 }
 
 
-<form name="myform" action="submit-form.ph">;
-Search: <input type='text' name='query'/>;
-<input type="image" src="go.gif"/>;
-</form>
-
+ 
 
 function show_image(src, width, height, alt) {
     var img = document.createElement("img");
@@ -22,13 +18,6 @@ function show_image(src, width, height, alt) {
     document.body.appendChild(img);
 }
 
-<button onclick=
-    "show_image("savormex.jpeg",
-                 150,
-                 330,
-                 'Pic of restaurant');">Picture</button>
-                 
-      
 
 
 function myFunction() {
